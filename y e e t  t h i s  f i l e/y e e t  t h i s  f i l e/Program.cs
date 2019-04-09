@@ -22,17 +22,22 @@ namespace y_e_e_t__t_h_i_s__f_i_l_e
             Console.WriteLine("What's your name? "); //asks for your name
             name = Console.ReadLine();
 
-            Console.Write("Nice to meet you, "); //this will prompt a message that will say "nice to meet you, <your name here>"
+            //this will prompt a message that will say "nice to meet you, <your name here>"
+            Console.Write("Nice to meet you, ");          
             Console.WriteLine(name);
-
-            Console.ReadLine(); //you can reply if you want, if not press enter to the next message
-
-            Console.Write("Your age is approximately, "); //this will prompt a message that will say "your age is approximately, <the age you entered>
+        
+            //you can reply if you want, if not press enter to the next message
+            Console.ReadLine(); 
+            
+            //this will prompt a message that will say "your age is approximately, <the age you entered>
+            Console.Write("Your age is approximately, "); 
             Console.WriteLine(age);
-
-            Console.ReadLine(); //same as the first time reply how you wish if you want. if not press enter to continue
-
-            Console.Write("It was nice speaking to you, "); //program replies before user presses enter or replies to close down command prompt
+            
+            //same as the first time reply how you wish if you want. if not press enter to continue
+            Console.ReadLine(); 
+            
+            //program replies before user presses enter or replies to close down command prompt
+            Console.Write("It was nice speaking to you, "); 
             Console.WriteLine(name);
 
             Console.WriteLine("Goodbye!");
